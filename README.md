@@ -72,7 +72,7 @@ Una salida tipica puede ser.
   <img width="660" height="373" alt="image" src="https://github.com/user-attachments/assets/113e23d2-b7a6-424e-9d2a-04e6f5aebc22" />
 </p>
 
-En la cual de los 1250 ataques de SQLi.
+En la cual de los ***1250*** ataques de XSS.
 
 - 508 fueron repelidos
 - 566 no fueron bloqueados.
