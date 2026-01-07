@@ -15,7 +15,7 @@ Este comando.
 
 Para las pruebas unicamente se emplearon los ataques XSS Y SQLi (Ya que estos suelen ser los más utilizados por los atacantes). WAF Bench cuenta con la carpeta ``/spiderlabs`` y ``/autogen``. La carpeta autogen contiene simulación de técnicas de ataque más modernos. 
 
-Por tal motivo, los tests que se probaron y que se encuentran en la carpeta ``/XSS_SQLi`` son los tests de ``/autogen``. Este contiene 1598 ataques SQLi (codigo 942) y 1250 ataques XSS (código 941).
+Por tal motivo, los tests que se probaron y que se encuentran en la carpeta ``/XSS_SQLi`` son los tests de ``/autogen``. Este contiene ***1598*** ataques SQLi (codigo 942) y ***1250*** ataques XSS (código 941).
 
 Una vez el ataque es ejecutado se puede acceder a la base de datos para obtener información del ataque atraves de.
 
