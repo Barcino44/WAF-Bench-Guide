@@ -1,0 +1,1010 @@
+meta:
+  author: msra
+  description: None
+  enabled: true
+  name: 942270.yaml
+tests:
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?xuNIONseLectFROmm=3I
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-1-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?%253BUnIONsSElECT1frOmL=MjCSLnANVx
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-2-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?%255CUNION0seLECt%255BfROM%250D=BsVvX_WB
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-3-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?junioNSeLEcTfROm.=tecHV
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-4-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?6uNIonSELECT%253EfrOmU=QBOjCtFIR8
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-5-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?UunIoNselECtkfRoME=rv7XRV1
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-6-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?bUnIOnHsELeCtfRoM%255B=b
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-7-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?munIoNSELECtDFroMu=Af0eqX_wB
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-8-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?YunIOn%2520SeleCtAfROMs=QCC
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-9-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?WUniONSeLeCTxFrom%252C=EA5n_zz
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-10-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?JZ=NUNionSelECteFROm%2520
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-11-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?DPr5PQ=%253DUnIOn%253FseleCTZfRom8
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-12-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?cxUs=xUnIoNSelECT4froM%257C
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-13-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?6w1wXpF=4uniONsELECt%2521FrOmJ
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-14-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?OZ=%253BuNioNSELECT%255DfROmj
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-15-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?6Z=%253EuniONSELecTfrOMg
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-16-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?n=%2522UNionSELeCTFrOmb
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-17-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?r=%253BuNIonjSelecTFRoMb
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-18-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?vhJpKqM=.uniOnsELEcTkfroMy
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-19-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        uri: /?zhR=0UniOn2SelEctQFrOM7
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-20-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: jHR73itaP96i2lDju=%3BUnioNtsELeCtFROm7
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-21-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: rQIys6pW=GunIOn%5BSELECT-fROM%0C
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-22-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: Da7UfUqd=HuNIoN%24sELectfROm9
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-23-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: 7nqiFSA=KUniON%28selecTFrOM%29
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-24-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: Znli=%2BUNIoN%7ESelecTfroM4
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-25-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: NMjHZL=xUniONSelECtpFRom%25
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-26-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: ctFrWQljtSRY=%2AunIoN%3DsELEct%0DfroMj
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-27-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: 4Xtgj=%5DunIONSeleCTDFROmo
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-28-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: aFoB6=1UnIoN%09sElect%3BFroMB
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-29-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: qXuJlRLYfk=dUniONSElECTFrOm%27
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-30-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: '%21uniON%3BSElEct-fRoM%3D=gBC'
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-31-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: '%5BUniON%27seLEcTwFrOM3=cwKrwqqG'
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-32-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: kUnIonnSelEcTFROm%40=7pUIt4
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-33-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: fUNiOnseLeCtfRoM%3E=NPllL
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-34-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: jUnionLsELecT3frOm%2B=MSYTKcib
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-35-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: DuNIOnSeLeCtFRoMj=u
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-36-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: 0UnIon%27SElEcTfRomO=G
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-37-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: '%23uNIoN%7BsELeCtfRoM%28=WY0'
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-38-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: auNIoNSELecTaFromo=0At
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-39-auto
+- stages:
+  - stage:
+      input:
+        dest_addr: 127.0.0.1
+        headers:
+          Cookie: _uNIoNoSelecTefrOm%20=N
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: GET
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-40-auto
+- stages:
+  - stage:
+      input:
+        data: '{"%7Ed%5Cl%24Yv%27H%2BunionW/Vh%3B5Qpselectyfrom1I3%21%2B%5EM%3E":"RF"}'
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: application/json
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-41-auto
+- stages:
+  - stage:
+      input:
+        data: <?xml version="1.0"?><Foo_key>KK%0C-I4unionS0uBh9select%2A%21DOVjS%3Dfrom%2C5</Foo_key>
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: text/xml
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-42-auto
+- stages:
+  - stage:
+      input:
+        data: '{"DBTcSSxE":"%5Cunion%29H%26Cselect%2B%20%3Eka%2B%22y%0BfromuqP%5EL%40%3DO"}'
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: application/json
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-43-auto
+- stages:
+  - stage:
+      input:
+        data: <?xml version="1.0"?><Foo_key>%5ERunion69bQselectCU%25xgfromK%0D</Foo_key>
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: text/xml
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-44-auto
+- stages:
+  - stage:
+      input:
+        data: <?xml version="1.0"?><Foo_key>Iuniongselect%5DTz%3Afrom%26Tj21%22X</Foo_key>
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: text/xml
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-45-auto
+- stages:
+  - stage:
+      input:
+        data: '{"sp.Aki%0Bunion%3F%21%24PselectIz%21%20cMTc%27from%0C%24":"MtHNqAxO"}'
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: application/json
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-46-auto
+- stages:
+  - stage:
+      input:
+        data: '{"vIZutpp7U":"%0D%7EunionY%2BD%205%2Cf24selectfrom%23J%20l%28"}'
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: application/json
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-47-auto
+- stages:
+  - stage:
+      input:
+        data: '{"Z%2345%24union%3C%28selectfrom%3C_":"7uRv49AEW"}'
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: application/json
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-48-auto
+- stages:
+  - stage:
+      input:
+        data: '{"%7E%26%2BHn%3Av%5Eg8unionCselectXEW%7Bfrom3%3F%5C%5B.g":"jH7H"}'
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: application/json
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-49-auto
+- stages:
+  - stage:
+      input:
+        data: '{"CdG5ypQBo":"JVp%3Cunion0TW-B%22Xxgselect0%3AC%213from%23K-Nu9_%09Y%3F"}'
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: application/json
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-50-auto
+- stages:
+  - stage:
+      input:
+        data: <?xml version="1.0"?><Foo_key>%5E/%28Kyyunion9Rc%3FDselect%20ufrom%5ERj</Foo_key>
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: text/xml
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-51-auto
+- stages:
+  - stage:
+      input:
+        data: '{"S2eth":"K9%22JunionrU%09xselect%0DRy%0B7from%7BFll"}'
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: application/json
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-52-auto
+- stages:
+  - stage:
+      input:
+        data: <?xml version="1.0"?><Foo_key>TotZ7Z%3A%3Bunion%20%7E%28E%7C%7Cselect5kOXfrom2%27</Foo_key>
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: text/xml
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-53-auto
+- stages:
+  - stage:
+      input:
+        data: '{"JdfOFtcltG":"yunionT2selecti%60qH%28Jsfromh%28b%40"}'
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: application/json
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-54-auto
+- stages:
+  - stage:
+      input:
+        data: '{"aj6p%09%0Cunion8selectF.TfromLOc.c_%5E6":"4YE"}'
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: application/json
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-55-auto
+- stages:
+  - stage:
+      input:
+        data: <?xml version="1.0"?><Foo_key>Uunione%2CYZT%5E%29selectE%0CAtfromm%09.Ll%23%3Bic</Foo_key>
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: text/xml
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-56-auto
+- stages:
+  - stage:
+      input:
+        data: '{"35PyusERuniond%2Ch%28Qselect%7Bfrom95":"R"}'
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: application/json
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-57-auto
+- stages:
+  - stage:
+      input:
+        data: '{"KYZ4w1":"Y%0B%29i%5DI8xunion%0DeAm3%3F%40select%28L0%5DF%5CfromNT%23%21Y2_Y"}'
+        dest_addr: 127.0.0.1
+        headers:
+          Content-Type: application/json
+          Host: localhost
+          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36
+        method: POST
+        port: 80
+        protocol: http
+        version: HTTP/1.1
+      output:
+        status:
+        - 403
+  test_title: 942270-58-auto
